@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background:#050816;
+  color:white;
+}
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#2563eb;
+    border-radius:20px;
+}
+
+section{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
