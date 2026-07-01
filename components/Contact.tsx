@@ -86,7 +86,7 @@ export default function Contact() {
 
           </motion.a>
 
-          <motion.a
+          {/* <motion.a
             whileHover={{ scale: 1.03 }}
             href="https://github.com/20311a0432"
             target="_blank"
@@ -102,11 +102,11 @@ export default function Contact() {
               </p>
             </div>
 
-          </motion.a>
+          </motion.a> */}
 
         </div>
 
-        <div className="text-center mt-16">
+        {/* <div className="text-center mt-16">
 
           <a
             href="/resume.pdf"
@@ -118,7 +118,7 @@ export default function Contact() {
 
           </a>
 
-        </div>
+        </div> */}
 
       </div>
     </section>
