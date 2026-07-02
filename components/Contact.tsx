@@ -51,7 +51,7 @@ export default function Contact() {
 
           </motion.a>
 
-          <motion.a
+          {/* <motion.a
             whileHover={{ scale: 1.03 }}
             href="tel:+919676772106"
             className="bg-[#111827] rounded-2xl p-8 flex items-center gap-5 border border-gray-800 hover:border-cyan-400"
@@ -66,7 +66,7 @@ export default function Contact() {
               </p>
             </div>
 
-          </motion.a>
+          </motion.a> */}
 
           <motion.a
             whileHover={{ scale: 1.03 }}
