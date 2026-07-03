@@ -121,59 +121,134 @@ export default function AI() {
 
         </div>
 
-        {/* Publication */}
+        {/* Publications */}
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true }}
-          className="mt-6"
+<motion.div
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  viewport={{ once: true }}
+  className="mt-6"
+>
+  <div className="rounded-3xl bg-[#111827] border border-gray-800 p-10">
+
+    <div className="flex items-center gap-4 mb-8">
+      <FaBookOpen className="text-4xl text-green-400" />
+      <h3 className="text-3xl font-bold">
+        Research Publications
+      </h3>
+    </div>
+
+    {/* Publication 1 */}
+
+    <div className="border-l-4 border-cyan-400 pl-6 mb-10">
+
+      <h4 className="text-2xl font-semibold text-cyan-400">
+        COAQNN-Based Real-Time NIFTY-50 Stock Price Prediction Using
+        Financial Indicators and Sentiment Analysis
+      </h4>
+
+      <p className="text-gray-300 mt-3">
+        Published in the{" "}
+        <strong>
+          International Scientific Journal of Engineering and Management
+          (ISJEM)
+        </strong>
+      </p>
+
+      <p className="text-gray-400 mt-3">
+        Developed a hybrid stock prediction framework integrating
+        <strong> Coati Optimization Algorithm (COA)</strong>,
+        <strong> Quantum Neural Networks (QNN)</strong>,
+        technical indicators, and financial news sentiment analysis to
+        improve real-time prediction accuracy for NIFTY-50 stocks.
+      </p>
+
+      <p className="text-gray-400 mt-3">
+        <strong>Authors:</strong> Navateja G, Dr. Kiran B M
+      </p>
+
+      <p className="text-gray-500 mt-2">
+        2026 • ISSN: 2583-6129
+      </p>
+
+      <div className="flex gap-4 mt-6">
+
+        <a
+          href="/papers/COAQNN_NIFTY50_Prediction.pdf"
+          download
+          className="rounded-lg bg-cyan-500 px-5 py-3 font-semibold hover:bg-cyan-600 transition"
         >
+          📄 Download Paper
+        </a>
 
-          <div className="rounded-3xl bg-[#111827] border border-gray-800 p-10">
+        <a
+          href="/papers/COAQNN_NIFTY50_Prediction.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-lg border border-cyan-500 px-5 py-3 font-semibold hover:bg-cyan-500/10 transition"
+        >
+          🔗 View Paper
+        </a>
 
-            <div className="flex items-center gap-4 mb-6">
+      </div>
 
-              <FaBookOpen className="text-4xl text-green-400" />
+    </div>
 
-              <h3 className="text-3xl font-bold mt-6">
-                Research Publication
-              </h3>
+    {/* Publication 2 */}
 
-            </div>
+    <div className="border-l-4 border-cyan-400 pl-6">
 
-            <h4 className="text-2xl font-semibold text-cyan-400">
+      <h4 className="text-2xl font-semibold text-cyan-400">
+        Rice Leaf Disease Detection Using Convolutional Neural Network
+      </h4>
 
-              Rice Leaf Disease Detection Using Convolutional Neural Network
+      <p className="text-gray-300 mt-3">
+        Published in the{" "}
+        <strong>
+          International Journal of Analytical and Experimental Modal Analysis
+          (IJAEMA)
+        </strong>
+      </p>
 
-            </h4>
+      <p className="text-gray-400 mt-3">
+        Proposed a Convolutional Neural Network (CNN)-based model for
+        automated rice leaf disease detection, enabling early diagnosis and
+        improved crop health monitoring through image classification.
+      </p>
 
-            <p className="text-gray-300 mt-4">
+      <p className="text-gray-400 mt-3">
+        <strong>Authors:</strong> Gogula Navateja, Dr. Raghavendar Raju L
+      </p>
 
-              Published in the <strong>
-              International Journal of Analytical and Experimental Modal Analysis (IJAEMA)
-              </strong>
+      <p className="text-gray-500 mt-2">
+        November 2023 • ISSN NO: 0886-9367
+      </p>
 
-            </p>
+      <div className="flex gap-4 mt-6">
 
-            <p className="text-gray-400 mt-3">
+        <a
+          href="/papers/Rice_Leaf_Disease_Detection_CNN.pdf"
+          download
+          className="rounded-lg bg-cyan-500 px-5 py-3 font-semibold hover:bg-green-600 transition"
+        >
+          📄 Download Paper
+        </a>
 
-              Authors:
-              Dr. Raghavendar Raju L,
-              Gogula Navateja
+        <a
+          href="/papers/Rice_Leaf_Disease_Detection_CNN.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-lg border border-cyan-500 px-5 py-3 font-semibold hover:bg-green-500/10 transition"
+        >
+          🔗 View Paper
+        </a>
 
-            </p>
+      </div>
 
-            <p className="text-gray-500 mt-2">
+    </div>
 
-              November 2023
-
-            </p>
-
-          </div>
-
-        </motion.div>
-
+  </div>
+</motion.div>
         {/* Statistics */}
 
         {/* <div className="grid md:grid-cols-4 gap-6 mt-14">
