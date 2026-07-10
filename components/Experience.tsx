@@ -12,7 +12,7 @@ import { SiJenkins, SiGooglecloud, SiDotnet } from "react-icons/si";
 
 const experiences = [
   {
-    company: "Aner Info Technologies",
+    company: "Aner Group",
     role: "Associate Software Developer",
     duration: "2024 – Present",
     color: "border-cyan-500",
@@ -39,7 +39,7 @@ const experiences = [
     ],
   },
   {
-    company: "Aner Info Technologies",
+    company: "Aner Group",
     role: "Salesforce Administrator",
     duration: "Aug 2024 – Sep 2025",
     color: "border-blue-500",
